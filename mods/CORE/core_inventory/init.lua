@@ -19,7 +19,7 @@ core_inventory.craft_formspec =
 
 -- Для сумки 3x2
 local function bag_cells_images(active_cells, pos)
-	formspec = ""
+	local formspec = ""
 	local poses = {
 		{0,0},
 		{1,0},
